@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/event-emitter": "^3.0.1",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/swagger": "^11.2.0",
+    "@nestjs/terminus": "^11.0.0",
+    "@nestjs/throttler": "^6.4.0",
+    "@nestjs/typeorm": "^11.0.0",
+    "amqplib": "^0.10.8",
+    "compression": "^1.8.1",
+    "helmet": "^8.1.0",
+    "pg": "^8.16.3",
+    "swagger-ui-express": "^5.0.1",
+    "typeorm": "^0.3.26"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/compression": "^1.8.1",
+    "@types/helmet": "^0.0.48",
+    "@types/passport": "^1.0.17"
+  }
+}
