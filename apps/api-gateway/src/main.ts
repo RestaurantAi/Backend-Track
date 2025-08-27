@@ -6,10 +6,10 @@ import helmet from 'helmet';
 import compression from 'compression';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { HttpExceptionFilter, LoggingInterceptor } from '@app/common';
-import { AppModule } from 'apps/restaurant-ai/src/app.module';
+import { ApiGatewayModule } from './api-gateway.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(ApiGatewayModule);
   const configService = app.get(ConfigService);
 
   // Security middleware
