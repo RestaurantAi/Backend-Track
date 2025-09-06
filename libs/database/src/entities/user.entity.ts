@@ -43,6 +43,10 @@ export class User {
   @Column({ name: 'last_login', nullable: true })
   lastLogin: Date;
 
+  @Column({ name: 'must_change_password', default: true })
+  mustChangePassword: boolean;
+
+
   @CreateDateColumn({ name: 'created_at' })
   createdAt: Date;
 

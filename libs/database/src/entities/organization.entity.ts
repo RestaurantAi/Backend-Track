@@ -37,7 +37,7 @@ export class Organization {
   @Column({ default: 'UTC' })
   timezone: string;
 
-  @Column({ default: 'USD' })
+  @Column({ default: 'NGN' })
   currency: string;
 
   @Column({ name: 'subscription_plan', nullable: true })
